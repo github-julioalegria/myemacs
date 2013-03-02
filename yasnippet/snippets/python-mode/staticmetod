@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: staticmethod
+# contributor: Julio M. Alegria
+# key: staticmethod
+# --
+@staticmethod
+def $1($2):
+    $0

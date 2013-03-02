@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: blocktrans
+# contributor: Julio M. Alegria
+# key: blocktrans
+# --
+{% blocktrans ${1:with ${2:var} as ${3:var}} %}
+$0{{ $3 }}
+{% endblocktrans %}

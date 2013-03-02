@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: alert
+# contributor: Julio M. Alegria
+# key: alert
+# --
+alert($0);

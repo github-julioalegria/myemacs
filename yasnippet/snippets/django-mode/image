@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ImageField
+# contributor: Julio M. Alegria
+# key: image
+# --
+${1:image} = models.ImageField(upload_to=${2:'$3'}$0)

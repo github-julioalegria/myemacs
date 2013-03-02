@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: class __init__
+# contributor: Julio M. Alegria
+# key: class
+# --
+class $1(${2:object}):
+    def __init__(self$3):
+        $0

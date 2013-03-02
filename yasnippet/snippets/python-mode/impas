@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import as
+# contributor: Julio M. Alegria
+# key: impas
+# --
+import $1 as $3
+$0

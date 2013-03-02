@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: comment
+# contributor: Julio M. Alegria
+# key: comment
+# --
+{% comment %}
+$0
+{% endcomment %}

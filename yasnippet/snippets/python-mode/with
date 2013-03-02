@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: with
+# contributor: Julio M. Alegria
+# key: with
+# --
+with ${1:open(${2:"$3"})} as $4:
+    $0

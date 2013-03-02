@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: else
+# contributor: Julio M. Alegria
+# key: else
+# --
+else:
+    $1
+$0

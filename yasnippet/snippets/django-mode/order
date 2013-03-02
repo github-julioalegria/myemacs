@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: order_by(...)
+# contributor: Julio M. Alegria
+# key: order
+# --
+order_by(${1:'$2'})

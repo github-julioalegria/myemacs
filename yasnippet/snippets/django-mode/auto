@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: AutoField
+# contributor: Julio M. Alegria
+# key: auto
+# --
+${1:id} = models.AutoField($2)

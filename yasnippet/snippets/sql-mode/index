@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: index
+# contributor: Julio M. Alegria
+# key: index
+# --
+CREATE INDEX ${3:$1_$2_$4} ON ${1:table} (${2:column});

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: var
+# contributor: Julio M. Alegria
+# key: var
+# --
+var $1 = $0;

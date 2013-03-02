@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: class Meta
+# contributor: Julio M. Alegria
+# key: meta
+# --
+class Meta:
+    # abstract, db_table, get_latest_by, ordering
+    # unique_together, verbose_name, verbose_name_plural
+    $0

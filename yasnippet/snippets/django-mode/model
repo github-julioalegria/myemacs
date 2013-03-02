@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: models.Model
+# contributor: Julio M. Alegria
+# key: model
+# --
+class $1(models.Model):
+    $0
+
+    def __unicode__(self):
+        return u'$1 #%s' % self.id

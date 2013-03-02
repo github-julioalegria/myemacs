@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: getlogger
+# contributor: Julio M. Alegria
+# key: getlogger
+# --
+logger = logging.getLogger(__name__)
+$0

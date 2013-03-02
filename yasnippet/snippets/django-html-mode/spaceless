@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: spaceless
+# contributor: Julio M. Alegria
+# key: spaceless
+# --
+{% spaceless %}
+$0
+{% endspaceless %}

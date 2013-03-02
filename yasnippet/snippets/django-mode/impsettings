@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import settings
+# contributor: Julio M. Alegria
+# key: impsettings
+# --
+from django.conf import settings
+$0

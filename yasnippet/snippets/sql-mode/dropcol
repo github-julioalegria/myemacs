@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: drop column
+# contributor: Julio M. Alegria
+# key: dropcol
+# --
+ALTER TABLE ${1:table} DROP COLUMN ${2:column};

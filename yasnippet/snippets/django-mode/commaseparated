@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: CommaSeparatedIntegerField
+# contributor: Julio M. Alegria
+# key: commaseparated
+# --
+$1 = models.CommaSeparatedIntegerField(max_length=$2$0)

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: forms.ModelForm
+# contributor: Julio M. Alegria
+# key: modelform
+# --
+class $1Form(forms.ModelForm):
+    def clean(self):
+        cleaned_data = self.cleaned_data
+        return cleaned_data
+
+    def save(self):
+        obj = super($1Form, self).save()
+	$0
+        return obj

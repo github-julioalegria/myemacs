@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: admin.TabularInline
+# contributor: Julio M. Alegria
+# key: tabularinline
+# --
+class $1Inline(admin.TabularInline):
+    model = ${2:$1}
+    $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ifline
+# contributor: Julio M. Alegria
+# key: ifline
+# --
+$1 if $2 else $3
+$0

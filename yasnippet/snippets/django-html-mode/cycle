@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cyle
+# contributor: Julio M. Alegria
+# key: cycle
+# --
+{% cycle $0 %}

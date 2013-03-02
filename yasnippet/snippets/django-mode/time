@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TimeField
+# contributor: Julio M. Alegria
+# key: time
+# --
+$1 = models.TimeField($2$0)

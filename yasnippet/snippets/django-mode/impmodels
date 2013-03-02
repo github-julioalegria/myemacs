@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: import models
+# contributor: Julio M. Alegria
+# key: impmodels
+# --
+from $1.models import $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def func
+# contributor: Julio M. Alegria
+# key: def
+# --
+def $1($2):
+    $0

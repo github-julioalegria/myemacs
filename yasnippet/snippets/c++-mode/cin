@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cin
+# contributor: Julio M. Alegria
+# key: cin
+# --
+cin >> $0;

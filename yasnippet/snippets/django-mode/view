@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: view
+# contributor: Julio M. Alegria
+# key: view
+# --
+def $1(request$2):
+    $0

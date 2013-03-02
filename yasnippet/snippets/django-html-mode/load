@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: load
+# contributor: Julio M. Alegria
+# key: load
+# --
+{% load $0 %}

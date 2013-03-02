@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: lambda
+# contributor: Julio M. Alegria
+# key: lam
+# --
+lambda ${1:x}: $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class
+# contributor: Julio M. Alegria
+# key: class
+# --
+class $1(${2:object}):
+      $0

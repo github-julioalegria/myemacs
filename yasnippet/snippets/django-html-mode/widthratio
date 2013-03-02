@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: widthratio
+# contributor: Julio M. Alegria
+# key: widthratio
+# --
+{% widthratio ${1:this_value} ${2:max_value} ${3:100} %}

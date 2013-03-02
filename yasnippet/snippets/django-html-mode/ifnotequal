@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ifnotequal
+# contributor: Julio M. Alegria
+# key: ifnotequal
+# --
+{% ifnotequal $1 $2 %}
+$0
+{% endifnotequal %}

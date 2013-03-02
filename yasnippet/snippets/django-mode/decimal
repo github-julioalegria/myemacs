@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: DecimalField
+# contributor: Julio M. Alegria
+# key: decimal
+# --
+$1 = models.DecimalField(max_digits=$2, decimal_places=$3$0)

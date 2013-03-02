@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: admin.StackedInline
+# contributor: Julio M. Alegria
+# key: stackedinline
+# --
+class $1Inline(admin.StackedInline):
+    model = ${2:$1}
+    $0

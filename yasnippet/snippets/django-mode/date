@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: DateField
+# contributor: Julio M. Alegria
+# key: date
+# --
+$1 = models.DateField(${2:auto_now_add=True}$0)

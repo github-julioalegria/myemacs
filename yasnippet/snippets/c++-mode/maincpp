@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: cpp initializer
+# contributor: Julio M. Alegria
+# key: maincpp
+# --
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
+}

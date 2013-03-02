@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: click
+# contributor: Julio M. Alegria
+# key: click
+# --
+$("${1:#}").click(function(){
+  $0
+});

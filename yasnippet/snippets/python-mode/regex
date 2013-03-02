@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: regex
+# key: regex
+# --
+${1:regex} = re.compile(r'${2:expr}')
+$0

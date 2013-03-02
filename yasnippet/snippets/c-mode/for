@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: for
+# contributor: Julio M. Alegria
+# key: for
+# --
+for(int ${1:i}=0;$1<${2:N}; ++$1) {
+    $0
+}

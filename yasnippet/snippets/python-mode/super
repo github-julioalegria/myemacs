@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: super
+# contributor: Julio M. Alegria
+# key: super
+# --
+super(${1:Class}, self).${2:function}(${3:*args, **kwargs})

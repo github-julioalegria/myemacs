@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: admin.ModelAdmin
+# contributor: Julio M. Alegria
+# key: modeladmin
+# --
+class $1Admin(admin.ModelAdmin):
+    $0

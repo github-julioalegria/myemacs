@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: PositiveIntegerField
+# contributor: Julio M. Alegria
+# key: positiveinteger
+# --
+$1 = models.PositiveIntegerField($2$0)

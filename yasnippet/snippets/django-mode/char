@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: CharField
+# contributor: Julio M. Alegria
+# key: char
+# --
+${1:name} = models.CharField(max_length=${2:32}$0)

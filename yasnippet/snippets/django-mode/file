@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: FileField
+# contributor: Julio M. Alegria
+# key: file
+# --
+$1 = models.FileField(upload_to=${2:'$3'}$0)

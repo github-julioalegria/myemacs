@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ifelse
+# contributor: Julio M. Alegria
+# key: ifelse
+# --
+if($1) {
+  $0
+} else {
+  
+}

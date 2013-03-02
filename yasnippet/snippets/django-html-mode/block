@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: block
+# contributor: Julio M. Alegria
+# key: block
+# --
+{% block $1 %}
+$0
+{% endblock $1 %}

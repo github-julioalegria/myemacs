@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: jvar
+# contributor: Julio M. Alegria
+# key: jvar
+# --
+$("${1:#}").${2:val}($0);

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: trans
+# contributor: Julio M. Alegria
+# key: trans
+# --
+{% trans "$1" %}

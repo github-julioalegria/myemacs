@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def __method__
+# contributor: Julio M. Alegria
+# key: defm_
+# --
+def __$1__(self$2):
+    $0

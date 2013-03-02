@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: IPAddressField
+# contributor: Julio M. Alegria
+# key: ipaddress
+# --
+${1:ip} = models.IPAddressField($2$0)

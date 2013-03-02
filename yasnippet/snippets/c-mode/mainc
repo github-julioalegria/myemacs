@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: C initializer
+# contributor: Julio M. Alegria
+# key: mainc
+# --
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}

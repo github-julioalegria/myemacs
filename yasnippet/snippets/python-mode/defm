@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def method
+# contributor: Julio M. Alegria
+# key: defm
+# --
+def $1(self$2):
+    $0

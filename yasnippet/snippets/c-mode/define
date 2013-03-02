@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: define
+# contributor: Julio M. Alegria
+# key: define
+# --
+#define $0

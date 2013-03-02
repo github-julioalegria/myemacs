@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TextField
+# contributor: Julio M. Alegria
+# key: text
+# --
+${1:description} = models.TextField(max_length=${2:1000}$0)

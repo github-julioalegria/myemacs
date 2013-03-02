@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: self assign
+# contributor: Julio M. Alegria
+# key: self
+# --
+self.$1 = ${2:$1}

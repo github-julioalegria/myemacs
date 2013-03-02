@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: NullBooleanField
+# contributor: Julio M. Alegria
+# key: nullboolean
+# --
+$1 = models.NullBooleanField($2$0)

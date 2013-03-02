@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: iterator
+# contributor: Julio M. Alegria
+# key: iter
+# --
+${1:vector<int>}::iterator ${2:it};

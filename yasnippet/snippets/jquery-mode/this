@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: this
+# contributor: Julio M. Alegria
+# key: this
+# --
+$(this)$0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: admin.site.register
+# contributor: Julio M. Alegria
+# key: register
+# --
+admin.site.register($1, $1Admin)
+$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: SmallIntegerField
+# contributor: Julio M. Alegria
+# key: smallinteger
+# --
+$1 = models.SmallIntegerField($2$0)

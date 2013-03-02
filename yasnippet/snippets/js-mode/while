@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: while
+# contributor: Julio M. Alegria
+# key: while
+# --
+while($1) {
+  $0
+}

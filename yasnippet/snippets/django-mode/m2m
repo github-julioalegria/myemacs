@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ManyToManyField
+# contributor: Julio M. Alegria
+# key: m2m
+# --
+$1 = models.ManyToManyField($2$0)

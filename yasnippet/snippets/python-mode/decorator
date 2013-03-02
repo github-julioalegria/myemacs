@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: decorator
+# contributor: Julio M. Alegria
+# key: decorator
+# --
+def ${1:decorator}(func):
+    def _wrapper(*args, **kwargs):
+        $3
+        r = func(*args, **kwargs)
+        $4
+        return r
+    return _wrapper

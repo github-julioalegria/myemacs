@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: usr
+# contributor: Julio M. Alegria
+# key: usr
+# --
+#!/usr/bin/env python
+$0

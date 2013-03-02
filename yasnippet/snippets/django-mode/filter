@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: filter(...)
+# contributor: Julio M. Alegria
+# key: filter
+# --
+filter($1)

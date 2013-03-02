@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: template <typename ...>
+# contributor: Julio M. Alegria
+# key: template
+# --
+template<typename ${T}>

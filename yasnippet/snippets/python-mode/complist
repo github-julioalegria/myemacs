@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: comprehension list
+# contributor: Julio M. Alegria
+# key: complist
+# --
+[${1:elem} for $1 in $2]
+$0

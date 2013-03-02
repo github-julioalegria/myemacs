@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: add column
+# contributor: Julio M. Alegria
+# key: addcol
+# --
+ALTER TABLE ${1:table} ADD COLUMN ${2:column_name} ${3:type};

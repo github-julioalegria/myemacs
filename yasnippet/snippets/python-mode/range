@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for range
+# contributor: Julio M. Alegria
+# key: range
+# --
+for ${1:i} in xrange($2):
+    $0

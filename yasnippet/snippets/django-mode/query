@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: query
+# contributor: Julio M. Alegria
+# key: query
+# --
+$1.objects.$0
