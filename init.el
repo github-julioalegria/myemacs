@@ -28,10 +28,6 @@
                              (frame-char-height)))))))
 (set-frame-size-according-to-resolution)
 
-;; Settings horizontal split as  default, instead of vertical split
-;; (setq split-height-threshold nil)
-;; (setq split-width-threshold 0)
-
 ;; Double the width of the frame and split window horizontally
 ;; contributor: Julio M. Alegria
 (defun double-width-split-frame (filename)
