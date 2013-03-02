@@ -52,7 +52,7 @@
 ;; key-binding for close-other-windows-normal-width (C-{)
 (global-set-key (kbd "C-{") 'close-other-windows-normal-width)
 
-;; Show bracket pairing
+;; Highlight matching brackets
 (show-paren-mode 1)
 ;; with no delay
 (setq show-paren-delay 0)
@@ -68,11 +68,12 @@
 (setq c-default-style "linux"
       c-basic-offset 4)
 
-;; web-mode, for django templates (HTML, javascript and django tags)
+;; web-mode, great for editing django templates
+;; (HTML, javascript and django tags)
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
-;; key-binding for opening the python shell (only in python-mode)
+;; key-binding to open the python shell (python-mode only)
 (add-hook 'python-mode-hook
           (lambda () (local-set-key [C-tab] 'run-python)))
 
