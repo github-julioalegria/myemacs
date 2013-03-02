@@ -29,15 +29,16 @@
 (set-frame-size-according-to-resolution)
 
 ;; Settings horizontal split as  default, instead of vertical split
-(setq split-height-threshold nil)
-(setq split-width-threshold 0)
+;; (setq split-height-threshold nil)
+;; (setq split-width-threshold 0)
 
 ;; Double the width of the frame and split window horizontally
 ;; contributor: Julio M. Alegria
 (defun double-width-split-frame (filename)
    (interactive "FFind file: ")
    (set-frame-width (selected-frame) 160)
-   (find-file-other-window filename))
+   (split-window-horizontally)
+   (find-file filename))
 
 ;; key-binding for double-width-split-frame (C-})
 (global-set-key (kbd "C-}") 'double-width-split-frame)
