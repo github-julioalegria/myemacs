@@ -18,10 +18,10 @@ My emacs enviroment. Feel free to copy/clone/fork.
 + Key binding `C-{` to keep current window (closes the rest) and returns to normal frame width.
 + Key binding `C-$` to open the shell.
 + Key binding `C-%` to open the python shell (python-mode only).
-+ Use local file pyflakespep8.py (pyflakes + PEP8) instead of default pychecker for a source code error report (C-c C-w).
-+ flymake: python checker on the fly using local file pyflakespep8.py (pyflakes + PEP8) for better source code warning and error reports.
++ Use local file `pyflakespep8.py` (pyflakes + PEP8) instead of default pychecker for a source code warning and error report (`C-c C-w`).
++ flymake: python checker on the fly using local file `pyflakespep8.py` (pyflakes + PEP8) for better source code warning and error reports.
 + Define the modes where you want flymake to be enabled, in my case I just want flymake on python files.
-+ Lots of useful snippets for python, django, html, jquery (and more) on yasnippet/snippets
++ Lots of useful snippets for python, django, html, jquery (and more) on `yasnippet/snippets`.
 
 ## What is the best way to avoid getting _Emacs Pinky_?
 
