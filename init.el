@@ -18,6 +18,10 @@
 ;; Fixing indentation in snippets
 (setq yas/indent-line 'fixed)
 
+;; expand-region, increases the selected region by semantic units
+;; Just keep pressing the key until it selects what you want
+(require 'expand-region)
+
 ;; Place all auto-saves and backups in the tmp directory
 (setq backup-directory-alist
           `((".*" . ,temporary-file-directory)))
@@ -55,6 +59,9 @@
                              (frame-char-height)))))))
 (set-frame-size-according-to-resolution)
 
+;; Key-binding (C-!) for expand-region
+(global-set-key (kbd "C-!") 'er/expand-region)
+
 ;; Double the width of the frame and split window horizontally
 ;; contributor: Julio M. Alegria <julio.alegria@ucsp.edu.pe>
 (defun double-width-split-frame (filename)
@@ -63,7 +70,7 @@
    (split-window-horizontally)
    (find-file filename))
 
-;; Key-binding for double-width-split-frame (C-})
+;; Key-binding (C-}) for double-width-split-frame
 (global-set-key (kbd "C-}") 'double-width-split-frame)
 
 ;; Keeps current window (closes the rest) and returns to normal frame width
@@ -73,13 +80,13 @@
    (delete-other-windows)
    (set-frame-width (selected-frame) 80))
 
-;; Key-binding for close-other-windows-normal-width (C-{)
+;; Key-binding (C-{) for close-other-windows-normal-width
 (global-set-key (kbd "C-{") 'close-other-windows-normal-width)
 
-;; Key-binding to open the shell
+;; Key-binding (C-$) to open the shell
 (global-set-key (kbd "C-$") 'shell)
 
-;; Key-binding to open the python shell (python-mode only)
+;; Key-binding (C-%) to open the python shell (python-mode only)
 (add-hook 'python-mode-hook
           (lambda () (local-set-key (kbd "C-%") 'run-python)))
 

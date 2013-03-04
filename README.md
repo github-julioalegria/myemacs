@@ -7,12 +7,14 @@ My emacs enviroment. Feel free to copy/clone/fork.
 + [uniquify](http://emacswiki.org/emacs/uniquify), for better buffer naming.
 + [web-mode](http://web-mode.org/), great for editing django templates (HTML, javascript and django tags).
 + [yasnippet](https://github.com/capitaomorte/yasnippet), best snippet extension ever!
++ [expand-region](https://github.com/magnars/expand-region.el), selects region by semantic units.
 + Auto-saves and backups in the tmp directory.
 + Highlight matching brackets.
 + Spaces instead of tabs.
 + C and C++ with 4 spaces indentation (linux style).
 + Javascript with 2 spaces indentation.
 + Fixed window width: 80
++ Key binding `C-!` for `expand-region`.
 + Vertically maximize emacs on startup base on resolution.
 + Key binding `C-}` to double the frame width and split window horizontally.
 + Key binding `C-{` to keep current window (closes the rest) and returns to normal frame width.
