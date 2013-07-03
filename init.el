@@ -22,6 +22,11 @@
 ;; Just keep pressing the key until it selects what you want
 (require 'expand-region)
 
+;; no-easy-keys, disables arrows/end/home/delete keys to force
+;; to learn the proper Emacs movement keys
+(require 'no-easy-keys)
+(no-easy-keys 1)
+
 ;; Place all auto-saves and backups in the tmp directory
 (setq backup-directory-alist
           `((".*" . ,temporary-file-directory)))
@@ -39,25 +44,6 @@
 ;; C and C++ with 4 spaces indentation (linux style)
 (setq c-default-style "linux"
       c-basic-offset 4)
-
-;; Javascript with 2 spaces indentation
-(setq js-indent-level 2)
-
-;; Maximize vertically emacs on startup, based on resolution
-(defun set-frame-size-according-to-resolution ()
-  (interactive)
-  (if (display-graphic-p)
-  (progn
-    ;; use 80 char wide window
-    (add-to-list 'default-frame-alist (cons 'width 80))
-    ;; for the height, subtract a couple hundred pixels
-    ;; from the screen height (for panels, menubars and
-    ;; whatnot), then divide by the height of a char to
-    ;; get the height we want
-    (add-to-list 'default-frame-alist 
-         (cons 'height (/ (- (x-display-pixel-height) 180)
-                             (frame-char-height)))))))
-(set-frame-size-according-to-resolution)
 
 ;; Key-binding (C-!) for expand-region
 (global-set-key (kbd "C-!") 'er/expand-region)

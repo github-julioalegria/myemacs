@@ -8,6 +8,7 @@ My emacs enviroment. Feel free to copy/clone/fork.
 + [web-mode](http://web-mode.org/), great for editing django templates (HTML, javascript and django tags).
 + [yasnippet](https://github.com/capitaomorte/yasnippet), best snippet extension ever!
 + [expand-region](https://github.com/magnars/expand-region.el), selects region by semantic units.
++ [no-easy-keys](http://danamlund.dk/emacs/no-easy-keys.html),  the best if you are new to Emacs (trains you to use the proper keys).
 + Auto-saves and backups in the tmp directory.
 + Highlight matching brackets.
 + Spaces instead of tabs.
@@ -15,7 +16,6 @@ My emacs enviroment. Feel free to copy/clone/fork.
 + Javascript with 2 spaces indentation.
 + Fixed window width: 80
 + Key binding `C-!` for `expand-region`.
-+ Vertically maximize emacs on startup base on resolution.
 + Key binding `C-}` to double the frame width and split window horizontally.
 + Key binding `C-{` to keep current window (closes the rest) and returns to normal frame width.
 + Key binding `C-$` to open the shell.
